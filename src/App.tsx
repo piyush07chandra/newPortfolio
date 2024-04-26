@@ -7,8 +7,6 @@ import Navbar from "./Navbar"
 import Projects from "./Projects"
 import Skills from "./Skills"
 
-
- 
 function App() {
   const [color, setColor]=useState('red')
 

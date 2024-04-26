@@ -20,7 +20,7 @@ const About:React.FC<clrType> = ({clr}) => {
     transition={{ duration: 3, repeat: Infinity }}
     style={{ fontSize: "24px", fontWeight: "bold",marginLeft:'200px',marginRight:'200px' }} // Adjust styles as needed
   >
-      <h1 className="lg:ml-0 -ml-16">About();</h1>
+      <h1 className="lg:ml-0 -ml-20">About();</h1>
     </motion.div>
       <p   className='text-xl lg:text-2xl'>I'm Piyush Chandra, a passionate and creative web developer with 2 years of experience crafting elegant and functional 
       websites..I am from Nainital (Uttarakhand),I compleated my diploma in Information Teachnology from government 

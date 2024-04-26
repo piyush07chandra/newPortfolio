@@ -39,7 +39,7 @@ const Contact:React.FC<clrType> = ({clr}) => {
     transition={{ duration: 3, repeat: Infinity }}
     style={{ fontSize: "24px", fontWeight: "bold",marginLeft:'200px',marginRight:'200px',marginTop:'12px' }} // Adjust styles as needed
   >
-      <h1 className="lg:ml-0 -ml-16">Contact();</h1>
+      <h1 className="lg:ml-0 -ml-20">Contact();</h1>
    
     </motion.div>
       <div className='mb-8 text-lg'>   
