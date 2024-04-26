@@ -120,7 +120,7 @@ const Projects:React.FC<clrType> = ({clr}) => {
     transition={{ duration: 3, repeat: Infinity }}
     style={{ fontSize: "24px", fontWeight: "bold",marginLeft:'200px',marginRight:'200px',marginTop:'12px',textAlign:'center' }} // Adjust styles as needed
   >
-    <h1 className="lg:ml-0 -ml-20">Projects();</h1>
+    <h1 className="lg:ml-0 -ml-24">Projects();</h1>
     </motion.div>
 {/* first */}
       <div className="bg-gray-700 lg:m-12 m-7 lg:p-4 p-1 rounded-md shadow-lg shadow-white h-auto">

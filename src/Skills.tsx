@@ -252,7 +252,7 @@ const Skills:React.FC<clrType> = ({clr}) => {
     transition={{ duration: 3, repeat: Infinity }}
     style={{ fontSize: "24px", fontWeight: "bold",marginLeft:'200px',marginRight:'200px', textAlign:'center' }} // Adjust styles as needed
   >
-     <h1 className="lg:ml-0 -ml-20">Skills();</h1>
+     <h1 className="lg:ml-0 -ml-24">Skills();</h1>
     </motion.div>
     
     <h1 className="text-4xl text-white font-semibold mb-8 text-center ">Programing Languages && Framework && Library</h1>
