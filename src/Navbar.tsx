@@ -25,7 +25,7 @@ const Navbar  = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 ">
         <div className="flex items-center justify-between h-16 ">
           <div className="flex items-center ">
-            <img className="h-20 w-20" src="/Snapchat-2116996598-removebg-preview.png" />
+            <img className="lg:h-20 lg:w-20 h-16 w-16 " src="/Snapchat-2116996598-removebg-preview.png" />
           </div>
           <div className="hidden md:block">
             <div className="ml-10 flex items-baseline space-x-4">

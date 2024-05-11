@@ -203,11 +203,11 @@ const Skills:React.FC<clrType> = ({clr}) => {
     <div id='skills'>
     <div style={{border:`1px solid ${clr}`,boxShadow:`5px 5px 20px  ${clr}`}}  className=" lg:block hidden mb-48 m-7 bg-black pb-60 rounded-md">
     <motion.div
-    animate={{ scale: [1, 1.5, 1], opacity: [1, 0.5, 1] }}
-    transition={{ duration: 3, repeat: Infinity }}
-    style={{ fontSize: "24px", fontWeight: "bold",marginLeft:'200px',marginRight:'200px', textAlign:'center' }} // Adjust styles as needed
-  >
-      Skills( );
+     animate={{ scale: [1, 1.5, 1], opacity: [5, 0.4, 3] }}
+     transition={{ duration: 1.5, repeat: Infinity }}
+     style={{ fontSize: "24px", fontWeight: "bold",color:`${clr}`,textAlign:'center',width:'200px',alignContent:'center',margin:'auto'}} // Adjust styles as needed
+   >
+  <h1 className="mt-8">Skills( );</h1>
     </motion.div>
 
     <h1 className="text-4xl text-white font-semibold mb-8 text-center mt-8">Programing Languages && Framework && Library</h1>
@@ -248,14 +248,14 @@ const Skills:React.FC<clrType> = ({clr}) => {
    
     <div style={{border:`1px solid ${clr}`,boxShadow:`5px 5px 30px  ${clr}`}} className=" block lg:hidden  shadow-lg shadow-slate-50 m-7 bg-slate-800 mx-12 rounded-md">
     <motion.div
-    animate={{ scale: [1, 1.5, 1], opacity: [1, 0.5, 1] }}
-    transition={{ duration: 3, repeat: Infinity }}
-    style={{ fontSize: "24px", fontWeight: "bold",marginLeft:'200px',marginRight:'200px', textAlign:'center' }} // Adjust styles as needed
-  >
-     <h1 className="lg:ml-0 -ml-24">Skills();</h1>
+     animate={{ scale: [1, 1.5, 1], opacity: [5, 0.4, 3] }}
+     transition={{ duration: 1.5, repeat: Infinity }}
+     style={{ fontSize: "24px", fontWeight: "bold",color:`${clr}`,textAlign:'center',width:'200px',alignContent:'center',margin:'auto'}} // Adjust styles as needed
+   >
+  <h1 className="mt-8 mb-8">Skills( );</h1>
     </motion.div>
     
-    <h1 className="text-4xl text-white font-semibold mb-8 text-center ">Programing Languages && Framework && Library</h1>
+    <h1 className="lg:text-4xl text-xl text-white font-semibold mb-8 text-center ">Programing Languages && Framework && Library</h1>
        <Slider infinite={true}
         slidesToShow={1}
         arrows={true}
@@ -281,15 +281,15 @@ const Skills:React.FC<clrType> = ({clr}) => {
     </div>
 
     <div style={{border:`1px solid ${clr}`,boxShadow:`5px 5px 20px  ${clr}`}} className="block lg:hidden  shadow-lg shadow-slate-50 m-7 bg-slate-800 mx-12 rounded-md">
-    <h1 className="text-4xl text-white font-semibold mb-8 mt-8 text-center">Database && Designer</h1>
+    <h1 className="lg:text-4xl text-xl text-white font-semibold mb-8 mt-8 text-center">Database && Designer</h1>
     <Slider infinite={true}
         slidesToShow={1}
         arrows={true}
         autoplay={true}
         autoplaySpeed={1500}>
-      <div><h1 className="text-center text-3xl font-serif">Canva</h1><img src="/canva.png" className="h-56 w-68 z-10 lg:mr-64 flex mx-auto justify-center"/></div>
+      <div><h1 className="text-center text-3xl font-serif">Canva</h1><img src="/canva.png" className="h-52 w-52 z-10 lg:mr-64 flex mx-auto justify-center"/></div>
       <div><h1 className="text-center text-3xl font-serif">Figma</h1><img src="/figma.png" className="h-60 w-60 z-10 lg:mr-64 flex mx-auto justify-center"/></div>
-      <div><h1 className="text-center text-3xl font-serif">mongo DB</h1><img src="/mongodb.png" className="h-60 w-60 z-10 lg:mr-64 flex mx-auto justify-center"/></div>
+      <div><h1 className="text-center text-3xl font-serif">mongo DB</h1><img src="/mongodb.png" className="h-52 w-48 z-10 lg:mr-64 flex mx-auto justify-center"/></div>
     </Slider>          
     </div> 
     </div> 

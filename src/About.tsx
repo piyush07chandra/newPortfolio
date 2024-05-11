@@ -12,21 +12,21 @@ const About:React.FC<clrType> = ({clr}) => {
 
   return (
     <>
-     <div  style={{border:`1px solid ${clr}`,boxShadow:`5px 5px 20px  ${clr}`,fontFamily:'Dancing Script, cursive'}}   className='about text-white lg:text-center mt-20 pt-4 z-50 bg-slte-800 rounded-md mb-16 m-7 shadow-lg shadow-white p-1' >
+     <div  style={{border:`1px solid ${clr}`,boxShadow:`5px 5px 20px  ${clr}`,fontFamily:'Dancing Script, cursive'}}   className='about text-white text-center mt-20 pt-4 z-50 bg-slte-800 rounded-md mb-16 m-7 shadow-lg shadow-white p-1' >
       
     
      <motion.div
-    animate={{ scale: [1, 1.5, 1], opacity: [1, 0.5, 1] }}
-    transition={{ duration: 3, repeat: Infinity }}
-    style={{ fontSize: "24px", fontWeight: "bold",marginLeft:'200px',marginRight:'200px' }} // Adjust styles as needed
-  >
-      <h1 className="lg:ml-0 -ml-24">About();</h1>
+     animate={{ scale: [1, 1.5, 1], opacity: [5, 0.4, 3] }}
+     transition={{ duration: 1.5, repeat: Infinity }}
+     style={{ fontSize: "24px", fontWeight: "bold",color:`${clr}`,textAlign:'center',width:'200px',alignContent:'center',margin:'auto'}} // Adjust styles as needed
+   >
+  <h1 className="mt-5 mb-5">About( );</h1>
     </motion.div>
       <p   className='text-xl lg:text-2xl'>I'm Piyush Chandra, a passionate and creative web developer with 2 years of experience crafting elegant and functional 
       websites..I am from Nainital (Uttarakhand),I compleated my diploma in Information Teachnology from government 
        Pollytechnic college Nainital and compleated The web developer bootcamp and the react+typeScript course from udemy.
        I have been learning web developement since 2 year.With a blend of creativity and technical expertise, I craft elegant 
-       solutions that not only meet but exceed expectations</p><br/>
+       solutions that not only meet but exceed expectations.</p><br/>
 
         <p  className='text-xl lg:text-2xl'>My journey into web development started with a curiosity to understand how things work behind the scenes on the internet.
        This curiosity quickly turned into a passion as I delved deeper into the world of coding and discovered the endless 
@@ -46,8 +46,9 @@ const About:React.FC<clrType> = ({clr}) => {
                    moments of brilliance on the field, has always been a favorite pastime of mine.
                     Whether it's batting, bowling, or fielding, each aspect of the game offers a unique
                      challenge that keeps me engaged and energized. Similarly, football captivates me with 
-                     its fast-paced action and team dynamics, fostering camaraderie and sportsmanship. 
+                     its fast-paced action and team dynamics, fostering camaraderie and sportsmanship.                      
                      </p>
+                     
 </div >  
     </>
   )
