@@ -11,8 +11,9 @@
   },
   "dependencies": {
     "@emailjs/browser": "^4.3.3",
+    "clsx": "^2.1.1",
     "emailjs-com": "^3.2.0",
-    "framer-motion": "^11.1.7",
+    "framer-motion": "^11.2.10",
     "gsap": "^3.12.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -21,7 +22,9 @@
     "react-slick": "^0.30.2",
     "react-spring": "^9.7.3",
     "slick-carousel": "^1.8.1",
-    "split-type": "^0.3.4"
+    "split-type": "^0.3.4",
+    "styled-components": "^6.1.11",
+    "tailwind-merge": "^2.3.0"
   },
   "devDependencies": {
     "@types/react": "^18.2.66",

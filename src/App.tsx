@@ -6,6 +6,7 @@ import HomePage from "./HomePage"
 import Navbar from "./Navbar"
 import Projects from "./Projects"
 import Skills from "./Skills"
+import SmokeCursor from "./SmokeCursor"
 
 function App() {
   const [color, setColor]=useState('red')
@@ -23,7 +24,7 @@ function App() {
   return (
     <>
    <div style={{backgroundColor:'black',color:'white'}}>
-    
+   <SmokeCursor/>
     <Navbar  />
     <HomePage clr={color}/>
     <About clr={color}/>
@@ -31,6 +32,7 @@ function App() {
     <Projects clr={color}/>
     <Contact clr={color}/>
     <Footer/>
+    
 
     </div>
     </>

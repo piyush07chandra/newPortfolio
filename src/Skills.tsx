@@ -35,7 +35,7 @@ const Skills:React.FC<clrType> = ({clr}) => {
         start: "",
         end: "",
         scrub:true,
-        markers:false
+        markers:false,
       }
     })
     tl.to(el,{ 
@@ -201,25 +201,25 @@ const Skills:React.FC<clrType> = ({clr}) => {
   return (
     <>
     <div id='skills'>
-    <div style={{border:`1px solid ${clr}`,boxShadow:`5px 5px 20px  ${clr}`}}  className=" lg:block hidden mb-48 m-7 bg-black pb-60 rounded-md">
+    <div style={{border:`1px solid ${clr}`,boxShadow:`5px 5px 20px  ${clr}`}}  className=" lg:block hidden mb-48 m-7 bg-black pb-60 rounded-md ">
     <motion.div
      animate={{ scale: [1, 1.5, 1], opacity: [5, 0.4, 3] }}
      transition={{ duration: 1.5, repeat: Infinity }}
-     style={{ fontSize: "24px", fontWeight: "bold",color:`${clr}`,textAlign:'center',width:'200px',alignContent:'center',margin:'auto'}} // Adjust styles as needed
+     style={{ fontSize: "24px", fontWeight: "bold",color:`${clr}`,textAlign:'center',width:'200px',alignContent:'center',margin:'auto',}} // Adjust styles as needed
    >
-  <h1 className="mt-8">Skills( );</h1>
+  <h1 className="mt-8 z-40 mx-auto">Skills( );</h1>
+  
     </motion.div>
 
-    <h1 className="text-4xl text-white font-semibold mb-8 text-center mt-8">Programing Languages && Framework && Library</h1>
+    <div className="flex">
+    <h1 className="text-4xl font-semibold mb-8 mx-auto text-center mt-8 z-10">Programing Languages && Framework && Library</h1>
+    </div>
       <div className="lg:flex mx-auto justify-center gap-96"> 
-      <div>
       <img ref={imgRef1} src="/html.png" className="h-40 w-40 z-10 lg:mr-64 "/>
-      </div>
-    
       <img ref={imgRef2} src="/css.png" className="h-40 w-40 z-10 lg:ml-64"/>
     </div>
 
-      <div className="lg:flex mx-auto justify-center gap-60">
+      <div className="lg:flex mx-auto justify-center gap-60 ">
         <img ref={imgRef3} src="/javascript.png" className="h-40 w-40 z-10 lg:mr-64"/>
         <img ref={imgRef4} src="/typescript.png" className="h-36 mt-3 w-48 z-10 lg:ml-64"/>
       </div>
@@ -233,13 +233,16 @@ const Skills:React.FC<clrType> = ({clr}) => {
        <img ref={imgRef7} src="/react.png" className="h-40 w-40 z-10 lg:mr-80"/>
        <img ref={imgRef8} src="/bootstrap.png" className="h-40 w-40 z-10 lg:ml-80"/>
       </div>
-          <h1 className="text-4xl text-white font-semibold mb-8 mt-8 text-center">Database && Designer</h1>
+      <div className="flex"> <h1 className="text-4xl text-white font-semibold mb-8 mt-8 text-center mx-auto z-20">Database && Designer</h1></div>
+         
           <div >
             <div className=" lg:flex mx-auto justify-center gap-60">
-              <img ref={imgRef9} src="/canva.png" className="h-40 w-40 mr-80"/>
-              <img ref={imgRef10} src="/figma.png" className="h-40 w-40 ml-80"/>
+              <img ref={imgRef9} src="/canva.png" className="h-40 w-40 z-40 mr-80"/>
+              <img ref={imgRef10} src="/figma.png" className="h-40 w-40 z-40 ml-80"/>
             </div>
-               <img ref={imgRef11}  src="/mongodb.png" className="mx-auto justify-center h-40 w-60 -mt-40 "/>
+            <div className="flex">
+               <img ref={imgRef11}  src="/mongodb.png" className="mx-auto justify-center h-40 w-60 z-40 -mt-40 "/>
+               </div>
           </div>
     </div>
    

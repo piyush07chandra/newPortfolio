@@ -21,7 +21,7 @@ const Navbar  = () => {
 
   return (
     <>
-      <nav className=" lg:rounded-full rounded-3xl fixed top-4 lg:left-52 md:left-10 left-6 bg-gray-800 backdrop-filter backdrop-blur-sm bg-opacity-50 px-4 py-1  z-50">
+      <nav className=" lg:rounded-full rounded-3xl fixed top-4 lg:left-52 md:left-10 left-6 bg-gray-800 backdrop-filter backdrop-blur-sm bg-opacity-50 px-4 py-1 z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 ">
         <div className="flex items-center justify-between h-16 ">
           <div className="flex items-center ">

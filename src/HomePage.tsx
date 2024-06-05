@@ -27,16 +27,16 @@ const HomePage:React.FC<clrType> = ({clr}) => {
       
   return (
     <>
-    <div id='home'>
+    <div  id='home'>
     {/* for desktop */}
     <div className=' lg:flex hidden pt-48 mb-32 ' >
-      <animated.div style={props}>
+      <animated.div className='z-40' style={props}>
         <h1 className='text-white text-4xl mb-4 ml-16 font-semibold'>Namaste ();</h1>
        <div className='text-5xl text-white font-serif flex mb-5'><h1 className='border-b-2 border-blue-500 w-12 mr-4 mb-4'></h1>I'm<h1 style={{color:clr}} className='ml-2 text-6xl'>Piyush Chandra</h1></div>
        <h1 className='text-7xl text-center text-white font-serif'>I am a Web Developer</h1>
       </animated.div>
-      <animated.div style={imgProp}>
-        <div style={{border:`2px solid ${clr}`}}><img   className=' h-96 w-96 rounded-md ' src='/piyush.jpg'/></div>
+      <animated.div className='z-40' style={imgProp}>
+        <div className='z-100' style={{border:`2px solid ${clr}`}}><img   className=' h-96 w-96 rounded-md' src='/piyush.jpg'/></div>
       </animated.div>
     </div>
 
